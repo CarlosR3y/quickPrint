@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">quickPrint</string>
+    <string name="btninicio">INICIAR SESION</string>
+    <string name="is">Iniciar sesion</string>
+    <string name="registrarse">Registrate</string>
+    <string name="tvTerminos">
+        <u>Terminos y condiciones</u>
+    </string>
+    <string name="crear">Crear cuenta</string>
+    <string name="img">Añadir imagen del perfil</string>
+    <string name="nombre">Nombre</string>
+    <string name="apellidos">Apellidos</string>
+    <string name="correo">Correo electronico</string>
+    <string name="Contraseña">Contraseña</string>
+    <string name="confirmar">Confirmar contraseña</string>
+    <string name="cxuenta">Esta cuenta sera personal u organizacional</string>
+    <string name="personal">Personal</string>
+    <string name="Organizacional">Organizacional</string>
+    <string name="confirmarbtn">CONFIRMAR</string>
+    <string name="open_nav">Navigation Drawer Open</string>
+    <string name="recuperar">Recuperar contraseña</string>
+    <string name="carga_home">Por el momento no hay nada nuevo</string>
+    <string name="tl1">Subir documento</string>
+    <string name="tl2">Historial</string>
+    <string name="tl3">Revisar estado</string>
+    <string name="tl4">Metodo de pago</string>
+    <string name="tl5">Ajuste</string>
+    <string name="closed_nav">Navigation Drawer Close</string>
+    <string name="logout">CERRAR SESIÓN</string>
+    <string name="RecuperarPass">Recuperar Contraseña</string>
+    <string name="invalid_emil">Ingrese un correo valido</string>
+    <string name="invalid_password">Ingrese un password mayor a 6 digitos</string>
+    <string name="Historial">HISTORIAL</string>
+    <string name="Pagos">Metodos de Pago </string>
+    <string name="btnPago">Seleccionar metodo de pago</string>
+</resources>

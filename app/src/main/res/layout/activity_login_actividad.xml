@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".loginActividad"
+    android:background="@color/verdeEsquema"
+    android:orientation="vertical"
+    >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/logotxt_30"
+        >
+    </ImageView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="560dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/custom_edit_log"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/roboto_bold"
+            android:text="Inicia sesion"
+            android:textColor="@color/verdeEsquema"
+            android:textSize="40sp">
+
+        </TextView>
+
+
+        <TextView
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="20dp"
+            android:text="Correo electronico"
+            android:textColor="@color/black">
+
+        </TextView>
+
+        <EditText
+            android:id="@+id/edt_RegistroCorreo"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_marginLeft="48dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="48dp"
+            android:background="@drawable/custom_edit_input"
+            android:drawableStart="@drawable/ic_profile"
+            android:inputType="textEmailAddress"
+            android:paddingLeft="26dp"
+            android:paddingRight="26dp">
+
+        </EditText>
+
+        <TextView
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="10dp"
+            android:text="Contraseña"
+            android:textColor="@color/black">
+
+        </TextView>
+
+        <EditText
+            android:id="@+id/edt_RegistroPassword"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_marginLeft="48dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="48dp"
+            android:background="@drawable/custom_edit_input"
+            android:drawableStart="@drawable/ic_lock"
+            android:inputType="textPassword"
+            android:paddingLeft="26dp"
+            android:paddingRight="26dp">
+
+        </EditText>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_InicioRecuperar"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                app:cornerRadius="100dp"
+                android:layout_marginTop="15dp"
+                android:text="@string/recuperar"
+                android:textColor="@color/verdeEsquema"
+                android:background="@android:color/transparent"
+                >
+
+            </com.google.android.material.button.MaterialButton>
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_InicioSesion"
+                android:layout_width="160dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="20dp"
+                android:backgroundTint="#059447"
+                android:text="@string/btninicio"
+                android:textAlignment="center"
+                app:cornerRadius="100dp">
+
+            </com.google.android.material.button.MaterialButton>
+        </LinearLayout>
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_InicioRegistro"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="130dp"
+            android:background="@android:color/transparent"
+            android:gravity="center"
+            android:text="@string/registrarse"
+            android:textColor="@color/verdeEsquema">
+
+        </com.google.android.material.button.MaterialButton>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/grupo_1"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/item1"
+            android:icon="@drawable/ic_icons8_documento"
+            android:title="Subir documentos"
+            android:checked="true"/>
+        <item
+            android:id="@+id/item2"
+            android:icon="@drawable/ic_icons8_reloj"
+            android:title="Historial"
+            android:checked="true"/>
+        <item
+            android:id="@+id/item3"
+            android:icon="@drawable/ic_icons8_comprobado"
+            android:title="Revisar estado"
+            android:checked="true"/>
+        <item
+            android:id="@+id/item4"
+            android:icon="@drawable/ic_baseline_payments_24"
+            android:title="Metodo de pago"
+            android:checked="true"/>
+        <item
+            android:id="@+id/item5"
+            android:icon="@drawable/ic_icons8_ajustes"
+            android:title="Ajustes"
+            android:checked="true"/>
+
+    </group>
+
+    <group>
+
+        <item
+            android:id="@+id/item6"
+            android:icon="@drawable/ic_exit"
+            android:title="Cerrar sesion"
+            android:checked="true"/>
+    </group>
+</menu>

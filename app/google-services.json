@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "470447879169",
+    "project_id": "quickprint-8bdf0",
+    "storage_bucket": "quickprint-8bdf0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:470447879169:android:aaa30eda42682e2565bc00",
+        "android_client_info": {
+          "package_name": "rey.com.quickprint"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "470447879169-7283jqt110srhllh1u5a5qca86ekbuvn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDBGEaeScCr4MWoeBeXa6gEvhUkTG7F-7o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "470447879169-7283jqt110srhllh1u5a5qca86ekbuvn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

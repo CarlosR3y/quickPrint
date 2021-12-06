@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".registroActividad"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/tv_RegistroTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:fontFamily="@font/roboto_bold"
+        android:text="@string/crear"
+        android:textColor="#059447"
+        android:textSize="50sp">
+
+    </TextView>
+
+    <ImageButton
+        android:id="@+id/img_btn_foto"
+        android:layout_width="122dp"
+        android:layout_height="122dp"
+        android:layout_gravity="center"
+        android:src="@drawable/icono_1"
+        android:background="@android:color/transparent">
+
+    </ImageButton>
+
+    <TextView
+        android:id="@+id/tv_RegistroFotoDesc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/img"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        >
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/tv_RegistroNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/nombre"
+        android:textColor="@color/black"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="300dp"
+        >
+
+    </TextView>
+
+    <EditText
+        android:id="@+id/edt_RegistroNombre"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="50dp"
+        android:paddingStart="15dp"
+        android:paddingEnd="15dp"
+        android:background="@drawable/custom_edit_input"
+        android:inputType="textPersonName"
+        android:drawableEnd="@drawable/ic_profile"
+        >
+
+    </EditText>
+
+    <TextView
+        android:id="@+id/tv_RegistroApellido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/apellidos"
+        android:textColor="@color/black"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="50dp"
+        >
+
+    </TextView>
+
+    <EditText
+        android:id="@+id/edt_RegistroApellidos"
+        android:layout_width="match_parent"
+        android:paddingStart="15dp"
+        android:paddingEnd="15dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="50dp"
+        android:background="@drawable/custom_edit_input"
+        android:inputType="textPersonName"
+        android:drawableEnd="@drawable/ic_profile"
+        >
+
+    </EditText>
+
+    <TextView
+        android:id="@+id/tv_RegistroCorreo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/correo"
+        android:textColor="@color/black"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="50dp"
+        >
+
+    </TextView>
+
+    <EditText
+        android:id="@+id/edt_RegistroCorreo"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="50dp"
+        android:paddingStart="15dp"
+        android:paddingEnd="15dp"
+        android:inputType="textEmailAddress"
+        android:background="@drawable/custom_edit_input"
+        android:drawableEnd="@drawable/ic_letter"
+        >
+
+    </EditText>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    >
+    <TextView
+        android:id="@+id/tv_RegistroPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Contraseña"
+        android:textColor="@color/black"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="20dp">
+
+    </TextView>
+
+
+</LinearLayout>
+    
+    <LinearLayout
+        android:id="@+id/linar_layout_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/edt_RegistroPassword"
+            android:layout_width="310dp"
+            android:layout_height="35dp"
+            android:paddingStart="15dp"
+            android:paddingEnd="15dp"
+            android:background="@drawable/custom_edit_input"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="230dp"
+            android:inputType="textPassword"
+            android:drawableEnd="@drawable/ic_lock"
+            >
+        </EditText>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_RegistroCuenta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:layout_marginTop="10dp"
+        android:text="@string/cxuenta"
+        android:layout_gravity="center"
+        android:gravity="center">
+
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioGroup
+            android:id="@+id/rg_RegistroCuenta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <RadioButton
+                android:id="@+id/rb_RegistroPersonal"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="60dp"
+                android:text="@string/personal"
+                >
+            </RadioButton>
+
+            <RadioButton
+                android:id="@+id/rb_RegistroOrganizacional"
+                android:text="@string/Organizacional"
+                android:textColor="@color/black"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="60dp"
+                android:layout_marginEnd="0dp">
+            </RadioButton>
+        </RadioGroup>
+
+    </LinearLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_RegistroCompletar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/confirmarbtn"
+        android:backgroundTint="#059447"
+        app:cornerRadius="100dp"
+        android:layout_marginStart="90dp"
+        android:layout_marginEnd="90dp"
+        >
+
+    </com.google.android.material.button.MaterialButton>
+
+</LinearLayout>
